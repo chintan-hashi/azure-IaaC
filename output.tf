@@ -1,4 +1,4 @@
-output "catapp_url" {
-  value = "http://${azurerm_public_ip.catapp-pip.fqdn}"
+output "catapp_public_ip" {
+  value = "${azurerm_public_ip.ip_address}"
 }
 
